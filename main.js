@@ -14,6 +14,10 @@ app.get('/sobre', function(request, response) {
   response.render('pages/sobre');
 })
 
+app.get('/contato', function(request, response) {
+  response.render('pages/sobre');
+})
+
 app.listen(8000, function() {
   console.log('Server is Run - port:8000');
 });
