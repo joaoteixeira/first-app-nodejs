@@ -14,11 +14,7 @@ app.get('/sobre', function(request, response) {
   response.render('pages/sobre');
 })
 
-app.get('/paginas', function(request, response) {
-  response.render('pages/sobre');
-})
-
-app.get('/contato2', function(request, response) {
+app.get('/contato', function(request, response) {
   response.render('pages/sobre');
 })
 
